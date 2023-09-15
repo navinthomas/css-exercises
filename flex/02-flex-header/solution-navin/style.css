@@ -1,6 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  padding: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,7 +13,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: 8px;
 }
 
 ul {
@@ -32,6 +32,7 @@ a {
 .right-links ul {
   display: flex;
   padding: 0;
-  margin: 8px;
+  /* Navin: Setting margin to 0 is not necessary in my opinion */
+  margin: 0;
   gap: 8px;
-}
+}q
