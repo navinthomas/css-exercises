@@ -35,5 +35,5 @@ img {
 
 .flex-container > div {
   text-align: center;
-  flex: 0 1 200px;
+  max-width: 200px;
 }
